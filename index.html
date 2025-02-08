@@ -13,6 +13,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
+      text-align: center;
     }
     .card {
       background-color: white;
@@ -40,10 +41,21 @@
     button:hover {
       background-color: #e62e5b;
     }
+    .gif-container {
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
   <div class="card">
+    <div class="gif-container">
+      <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" alt="Amor Gif">
+    </div>
     <h1>¿Quieres ser mi San Valentín? ❤️</h1>
     <button onclick="alert('¡Gracias por aceptar! 🥰')">¡Sí, por supuesto! 💖</button>
   </div>
