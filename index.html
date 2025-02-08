@@ -50,6 +50,13 @@
       border-radius: 10px;
     }
   </style>
+  <script>
+    function mostrarGifAlegria() {
+      const gifContainer = document.querySelector(".gif-container img");
+      gifContainer.src = "https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif";
+      alert("¡Gracias por aceptar! 🥰");
+    }
+  </script>
 </head>
 <body>
   <div class="card">
@@ -57,7 +64,7 @@
       <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" alt="Amor Gif">
     </div>
     <h1>¿Quieres ser mi San Valentín? ❤️</h1>
-    <button onclick="alert('¡Gracias por aceptar! 🥰')">¡Sí, por supuesto! 💖</button>
+    <button onclick="mostrarGifAlegria()">¡Sí, por supuesto! 💖</button>
   </div>
 </body>
 </html>
